@@ -18,6 +18,13 @@ while true; do
     tar -czf $COMPRESSED_FOLDER_NAME $LOG_DIR
     echo "Arquivo comprimido com sucesso em: ${COMPRESSED_FOLDER_NAME}"
 
+    echo "Deseja deletar o diretorio original? (s/N)"
+    read DELETE_ORIGINAL_DIRECTORY
+
+    if ! [[ "$DELETE_ORIGINAL_DIRECTORY" = "n" || "$DELETE_ORIGINAL_DIRECTORY" = "N" ]]; then
+      rm -rf "$LOG_DIR"
+    fi
+
   else
     clear
     echo "O diretório não pode estar vazio"
