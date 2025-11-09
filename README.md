@@ -15,3 +15,6 @@ chmod +x -R scripts-bash
 ## Descrição dos Scripts
 - `pc-stats.sh`: Com esse script você pode visualizar de uma forma simplificada os recursos que estão sendo consumidos na sua máquina.
 <img width="555" height="144" alt="image" src="https://github.com/user-attachments/assets/dd5d18e6-8234-427a-a9b9-5b5857be7b1e" />
+
+- `compress-log.sh`: Com esse script, é possivel comprimir logs e salva-los em um arquivo diferente, para deixar o ambiente mais limpo.
+<img width="758" height="145" alt="image" src="https://github.com/user-attachments/assets/241116d1-0a13-4018-88ca-688674579363" />
