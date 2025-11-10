@@ -18,5 +18,4 @@ do
 	echo "- Top 5 CPU processes: $top_five_processes_cpu_usage"
 	echo "- Top 5 Memory processes: $top_five_processes_memory_usage"
 	echo "$separator"
-	./repositorio-github.sh
 done

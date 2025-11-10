@@ -1,3 +1,5 @@
+#!/bin/bash
+
 while true; do
   echo " "
   echo "-----[ Para arquivos na raiz (/), o script deve ser inicializado com sudo ]-----"
